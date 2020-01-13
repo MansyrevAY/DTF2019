@@ -1,0 +1,380 @@
+[
+  {
+    "answer_item": "1.1",
+    "answer_text": "Далее",
+    "answer_condition": "0,",
+    "next_event": "1.1",
+    "instant_event": true,
+    "answer_mod": "0,",
+    "conditionHint": null
+  },
+    {
+    "answer_item": "1.11",
+    "answer_text": "Понятно",
+    "answer_condition": "0,",
+    "next_event": "0",
+    "instant_event": true,
+    "answer_mod": "0,",
+    "conditionHint": null
+  },
+      {
+    "answer_item": "2.1",
+    "answer_text": "Понятно",
+    "answer_condition": "0,",
+    "next_event": "0",
+    "instant_event": true,
+    "answer_mod": "0,",
+    "conditionHint": null
+  },
+  {
+    "answer_item": "3.1",
+    "answer_text": "Понятно",
+    "answer_condition": "0,",
+    "next_event": "4",
+    "instant_event": true,
+    "answer_mod": "0,",
+    "conditionHint": null
+  },
+    {
+    "answer_item": "4.1",
+    "answer_text": "Далее",
+    "answer_condition": "0,",
+    "next_event": "5",
+    "instant_event": true,
+    "answer_mod": "0,",
+    "conditionHint": null
+  },
+  {
+    "answer_item": "5.1",
+    "answer_text": "Поехали!",
+    "answer_condition": "0,",
+    "next_event": "0",
+    "instant_event": true,
+    "answer_mod": "0,",
+    "conditionHint": null
+  },
+    {
+    "answer_item": "6.1",
+    "answer_text": "Интересно",
+    "answer_condition": "0,",
+    "next_event": "0",
+    "instant_event": true,
+    "answer_mod": "0,",
+    "conditionHint": null
+  },
+  {
+    "answer_item": "7.1",
+    "answer_text": "Я справлюсь",
+    "answer_condition": "0,",
+    "next_event": "0",
+    "instant_event": true,
+    "answer_mod": "0,",
+    "conditionHint": null
+  },
+    {
+    "answer_item": "11.1",
+    "answer_text": "Исследовать здание",
+    "answer_condition": "0,",
+    "next_event": "11.1",
+    "instant_event": true,
+    "answer_mod": "0,",
+    "conditionHint": null
+  },
+    {
+    "answer_item": "11.2",
+    "answer_text": "Устроить поджог. Лучше не задерживаться больше, чем надо",
+    "answer_condition": "0,",
+    "next_event": "11.2",
+    "instant_event": true,
+    "answer_mod": "0,",
+    "conditionHint": null
+  },
+  {
+    "answer_item": "11.11",
+    "answer_text": "Удачно",
+    "answer_condition": "0,",
+    "next_event": "0",
+    "instant_event": true,
+    "answer_mod": "mana - 1,population - 1,defence - 2",
+    "conditionHint": null
+  },
+    {
+    "answer_item": "11.21",
+    "answer_text": "Неприятно",
+    "answer_condition": "0,",
+    "next_event": "0",
+    "instant_event": true,
+    "answer_mod": "0,",
+    "conditionHint": null
+  },
+  {
+    "answer_item": "12.1",
+    "answer_text": "Как насчет небольшой шутки?",
+    "answer_condition": "tech5 = 1,",
+    "next_event": "12.1",
+    "instant_event": true,
+    "answer_mod": "0,",
+    "conditionHint": null
+  },
+  {
+    "answer_item": "12.2",
+    "answer_text": "Выдам себя за одного из них жителей и признаюсь в убийстве",
+    "answer_condition": "mana > 1,",
+    "next_event": "12.2",
+    "instant_event": true,
+    "answer_mod": "0,",
+    "conditionHint": null
+  },
+  {
+    "answer_item": "12.3",
+    "answer_text": "Вряд ли что-то из этого выйдет",
+    "answer_condition": "0,",
+    "next_event": "0",
+    "instant_event": true,
+    "answer_mod": "0,",
+    "conditionHint": null
+  },
+    {
+    "answer_item": "12.11",
+    "answer_text": "Вышло неплохо",
+    "answer_condition": "0,",
+    "next_event": "0",
+    "instant_event": true,
+    "answer_mod": "defence - 1,",
+    "conditionHint": null
+  },
+  {
+    "answer_item": "12.21",
+    "answer_text": "Вышло неплохо",
+    "answer_condition": "0,",
+    "next_event": "0",
+    "instant_event": true,
+    "answer_mod": "defence - 3,mana - 1",
+    "conditionHint": null
+  },
+    {
+    "answer_item": "13.1",
+    "answer_text": "Вызвать ее на магическую дуэль!",
+    "answer_condition": "mana > 2,",
+    "next_event": "13.1",
+    "instant_event": true,
+    "answer_mod": "0,",
+    "conditionHint": null
+  },
+  {
+    "answer_item": "13.2",
+    "answer_text": "Переходи на темную сторону, и вместе мы будем править галактикой!",
+    "answer_condition": "rebirth > 5,",
+    "next_event": "13.2",
+    "instant_event": true,
+    "answer_mod": "0,",
+    "conditionHint": null
+  },
+  {
+    "answer_item": "13.3",
+    "answer_text": "Сейчас мне её не победить. Лучше послушаться совета духа и отступить",
+    "answer_condition": "0,",
+    "next_event": "0",
+    "instant_event": true,
+    "answer_mod": "0,",
+    "conditionHint": null
+  },
+    {
+    "answer_item": "13.11",
+    "answer_text": "Было легко",
+    "answer_condition": "0,",
+    "next_event": "0",
+    "instant_event": true,
+    "answer_mod": "mana - 2,defence - 3",
+    "conditionHint": null
+  },
+  {
+    "answer_item": "13.21",
+    "answer_text": "Удача",
+    "answer_condition": "0,",
+    "next_event": "0",
+    "instant_event": true,
+    "answer_mod": "defence - 3,",
+    "conditionHint": null
+  },
+  {
+    "answer_item": "14.1",
+    "answer_text": "Подстроить нападение на принцессу на подходах к городу",
+    "answer_condition": "force > 2,",
+    "next_event": "14.1",
+    "instant_event": true,
+    "answer_mod": "0,",
+    "conditionHint": null
+  },
+  {
+    "answer_item": "14.2",
+    "answer_text": "Отравить еду для банкета",
+    "answer_condition": "0,",
+    "next_event": "14.2",
+    "instant_event": true,
+    "answer_mod": "0,",
+    "conditionHint": null
+  },
+  {
+    "answer_item": "14.3",
+    "answer_text": "Распространить грязные слухи о принцессе",
+    "answer_condition": "0,",
+    "next_event": "14.3",
+    "instant_event": true,
+    "answer_mod": "0,",
+    "conditionHint": null
+  },
+  {
+    "answer_item": "14.11",
+    "answer_text": "Успех",
+    "answer_condition": "0,",
+    "next_event": "0",
+    "instant_event": true,
+    "answer_mod": "force - 2,defence - 5",
+    "conditionHint": null
+  },
+  {
+    "answer_item": "14.21",
+    "answer_text": "Досадно",
+    "answer_condition": "0,",
+    "next_event": "0",
+    "instant_event": true,
+    "answer_mod": "0,",
+    "conditionHint": null
+  },
+  {
+    "answer_item": "14.31",
+    "answer_text": "Тоже неплохо",
+    "answer_condition": "0,",
+    "next_event": "0",
+    "instant_event": true,
+    "answer_mod": "defence - 2,",
+    "conditionHint": null
+  },
+  {
+    "answer_item": "16.1",
+    "answer_text": "Избавить несчастных от страданий",
+    "answer_condition": "force > 2,",
+    "next_event": "16.1",
+    "instant_event": true,
+    "answer_mod": "0,",
+    "conditionHint": null
+  },
+  {
+    "answer_item": "16.2",
+    "answer_text": "Возможно, они ищут работу?",
+    "answer_condition": "mana > 2,",
+    "next_event": "16.2",
+    "instant_event": true,
+    "answer_mod": "0,",
+    "conditionHint": null
+  },
+  {
+    "answer_item": "16.3",
+    "answer_text": "Лучше оставить их в покое",
+    "answer_condition": "0,",
+    "next_event": "0",
+    "instant_event": true,
+    "answer_mod": "0,",
+    "conditionHint": null
+  },
+  {
+    "answer_item": "16.11",
+    "answer_text": "Неплохо",
+    "answer_condition": "0,",
+    "next_event": "0",
+    "instant_event": true,
+    "answer_mod": "force - 2,souls + 1,",
+    "conditionHint": null
+  },
+  {
+    "answer_item": "16.21",
+    "answer_text": "Неплохо",
+    "answer_condition": "0,",
+    "next_event": "0",
+    "instant_event": true,
+    "answer_mod": "force + 2,mana - 2,",
+    "conditionHint": null
+  },
+  {
+    "answer_item": "17.1",
+    "answer_text": "Не мешать им. Пускай сделают всю грязную работу, а я подожду их на выходе с “компанией”",
+    "answer_condition": "force > 1,",
+    "next_event": "17.1",
+    "instant_event": true,
+    "answer_mod": "0,",
+    "conditionHint": null
+  },
+  {
+    "answer_item": "17.2",
+    "answer_text": "В атаку! Нападем, откуда они не ждут",
+    "answer_condition": "force > 1,",
+    "next_event": "17.2",
+    "instant_event": true,
+    "answer_mod": "0,",
+    "conditionHint": null
+  },
+  {
+    "answer_item": "17.3",
+    "answer_text": "Перевоплощусь в одного из них, чтобы посеять панику и раздор в их рядах, а затем мои солдаты нападут в самый неподходящий момент",
+    "answer_condition": "force > 1,tech3 = 1,",
+    "next_event": "17.3",
+    "instant_event": true,
+    "answer_mod": "0,",
+    "conditionHint": null
+  },
+  {
+    "answer_item": "17.4",
+    "answer_text": "Я не готов к бою, лучше уйти",
+    "answer_condition": "0,",
+    "next_event": "0",
+    "instant_event": true,
+    "answer_mod": "0,",
+    "conditionHint": null
+  },
+  {
+    "answer_item": "17.11",
+    "answer_text": "Неприятно",
+    "answer_condition": "0,",
+    "next_event": "0",
+    "instant_event": true,
+    "answer_mod": "force - 5,",
+    "conditionHint": null
+  },
+  {
+    "answer_item": "17.21",
+    "answer_text": "Это успех",
+    "answer_condition": "0,",
+    "next_event": "0",
+    "instant_event": true,
+    "answer_mod": "force - 2,",
+    "conditionHint": null
+  },
+  {
+    "answer_item": "17.31",
+    "answer_text": "Это успех",
+    "answer_condition": "0,",
+    "next_event": "0",
+    "instant_event": true,
+    "answer_mod": "force - 1,",
+    "conditionHint": null
+  },
+    {
+    "answer_item": "20.1",
+    "answer_text": "Мои войска разберутся с ними",
+    "answer_condition": "0,",
+    "next_event": "0",
+    "instant_event": true,
+    "answer_mod": "force - 1,",
+    "conditionHint": null
+  },
+  {
+    "answer_item": "20.2",
+    "answer_text": "Я сам разберусь с ними, используя магию",
+    "answer_condition": "mana > 1,",
+    "next_event": "0",
+    "instant_event": true,
+    "answer_mod": "mana - 1,",
+    "conditionHint": null
+  }
+]
